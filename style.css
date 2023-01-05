@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #003366;
+}
+
+.Content{
+  width: 1280px;
+  margin: auto;
+  border-radius: 20px;
+}
+img {
+    width: 30px;
+  }
+.twitter {
+    background-color: #ffff;
+    border: none;
+    border-radius: 5px;
+    width: 40%;
+    height: 50px;
+    cursor: pointer;
+
+  }
+.twitter:hover{
+      background-color: #c6d4db;
+      
+  }
+  
+
+.quotes-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.inner-quotes-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 900px;
+  text-align: center;
+  min-height: 410px;
+  padding: 0 30px;
+  color: #8EA2C6;
+  background-color: #8EA2C6;
+  border-radius: 20px;
+ 
+}
+
+.inner-quotes-container p{
+  font-size: 2rem;
+  color:white;
+  font-weight: bold;
+}
+.div{
+   display: flex;
+  }
+
+.inner-quotes-container h3{
+  font-size: 2rem;
+  color:#24445C;
+  font-style: normal;
+}
+
+.quote-btn{padding-top: 25px;
+  color: #24445C;
+  height: 50px;
+  padding-left: 230px;
+  
+}
+.btn-twitter{
+    padding-top: 25px;
+    color: #24445C;
+    height: 50px;
+
+  }
+  @media(max-width:1280px){
+    .container{width: 95%;}
+  }
+  
+  @media(max-width:900px){
+    .inner-quotes-container{width: 100%;}
+  }
+  
+  @media(max-width:480px){
+    .inner-quotes-container p{font-size: 1.2rem;}
+    .inner-quotes-container h3{font-size: 1.2rem;}
+  }
+
